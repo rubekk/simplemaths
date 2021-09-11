@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple Maths</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">Simple Math</div>
+	<div class="container">
+		<div class="ans-status">Enter the answer</div>
+		<div class="calculation-sec">
+			<div class="first-digit"></div>
+			<div class="operator"></div>
+			<div class="second-digit"></div>
+			<div class="equal-sign"></div>
+			<input type="number" class="answer">
+		</div>
+		<div class="diff-operators">
+			<div class="plus-op">+</div>
+			<div class="minus-op">-</div>
+			<div class="product-op">x</div>
+		</div>
+		<div class="btns">
+			<button class="change-btn">Change</button>
+			<button class="check-btn">Check</button>
+		</div>
+	</div>
+	<audio class="wrong-audio" src="wrong.wav"></audio>
+	<audio class="right-audio" src="right.wav"></audio>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
